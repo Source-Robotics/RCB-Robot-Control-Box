@@ -7,8 +7,21 @@ By building and using this system, you acknowledge that it is still under active
 This project may require troubleshooting, modifications, and technical knowledge. Proceed only if you are comfortable working with electronics, mechanical systems, and software in a development-stage environment.
 >
 
+## 🐞 Beta Feedback
 
-<img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
+Since this project is currently in beta, feedback is highly appreciated.
+
+If you find any mistakes, bugs, or unclear parts, please report them, including issues in:
+
+- Documentation
+- BOM and assembly documentation
+- Source code
+- STL and other 3D print files
+
+Please open an issue, send us a message on Discord, or contact us via email with as much detail as possible so we can fix it quickly.
+
+
+<img src="Photos/BOXES.png" alt="drawing" width="1000"/>
 
 <div align="center">
 
@@ -58,7 +71,7 @@ There is no need for external PC, the Box uses raspberry pi to control your robo
 | [RCB motherboard firmware](RCB%20motherboard%20firmware/) | Firmware source and PlatformIO project for the control box motherboard |
 | [BOX STEP 3D print files](STEP%20files/) | STEP files for the control box enclosure and printed parts |
 | [BOM](BOM/BOM.md) | Bill of materials and reference images for required components |
-| [Assembly manual](Assembly%20manual/readme.md) | Build and assembly instructions for the control box |
+| [Assembly manual](Assembly%20manual/readme.md) | Build and assembly instructions for the control box TODO |
 
 
 ## 🌐 More about our projects
