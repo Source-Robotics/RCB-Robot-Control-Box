@@ -1,18 +1,20 @@
 
 > [!CAUTION]
-> The gripper is still in BETA release meaning it will have some bugs from hardware to software!
+> This is a BETA release: Instructions, code, and 3D print files may change in the future and are not yet finalized.
+
+By building and using this system, you acknowledge that it is still under active development and may contain errors, incomplete features, or design issues. You are doing so entirely at your own risk and responsibility.
+
+This project may require troubleshooting, modifications, and technical knowledge. Proceed only if you are comfortable working with electronics, mechanical systems, and software in a development-stage environment.
 >
-
-
 
 
 <img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
 
 <div align="center">
 
-# MSG-compliant-AI-stepper-gripper
+# RCB - ROBOT CONTROL BOX
 
-[![License: CERN OHL v2 - Strongly Reciprocal](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
    ![Issues](https://img.shields.io/github/issues/PCrnjak/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/MSG-compliant-AI-stepper-gripper) 
 <p align="center">
   <a href="https://source-robotics.github.io/PAROL-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
@@ -23,92 +25,43 @@
   <a href="https://www.youtube.com/@source-robotics"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube" alt="YouTube"></a>
 </p>
 
-## [▶️YouTube🔴 Video of Gripper in Action!](https://youtu.be/YUvNXfaHM6s)
 
 </div>
 
 
 ## 📖 Project Overview
-The **MSG compliant AI stepper gripper** is built around [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller), which enable precise FOC-based force control on standard stepper motors. This makes it well-suited for assembly tasks, human-robot collaboration, and AI data collection applications — including embodied AI, teleoperation, and VLA training — thanks to its camera-friendly design.
 
-**The gripper is modular in two key ways:**
+RCB - Robot Control Box  is basically the brain + interface hub of the PAR6 robot, it:
 
-| Option | Variants | Notes |
-|--------|----------|-------|
-| Rail length | 100 mm, 150 mm, 200 mm | Determines maximum grip span |
-| Stepper length | 21.5 mm, 40 mm, 60 mm | Determines maximum grip force output |
+* Runs the real-time control algorithms
+* Connects to the robot arm (motors, sensors)
+* Interfaces with external devices (PCs, PLCs, sensors)
+* Handles safety systems
+* Provides user interface / programming environment
 
-**All mechanical files, firmware, and software are open source, allowing you to attach a custom gripping tool and integrate the gripper with any robotic arm or platform.**
-
-
+There is no need for external PC, the Box uses raspberry pi to control your robotic arm.
 
 ## ⚒️How to build / Where to buy?
 
-You can buy MSG gripper on our website: https://source-robotics.com/products/msg-gripper
+* Assembly manual is TODO.
 
-If you want to Source all the parts yourself and build your own follow these steps:
+* Source all the parts yourself from the BOM folder!
 
-Print files from the STEP files folder based on your chosen configuration:
+* Print files from the STEP files folder.
 
-| Rail Size | Folders to Print |
-|-----------|------------------|
-| 100 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/100mm rail](STEP%20files/Linear%20rail%20dependant%20parts/100mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
-| 150 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/150mm rail](STEP%20files/Linear%20rail%20dependant%20parts/150mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
-| 200 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/200mm rail](STEP%20files/Linear%20rail%20dependant%20parts/200mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 
-* Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
-* Follow [Assembly instructions ](https://youtu.be/oAUhDKYgLso) or [Video instructions](https://youtu.be/oAUhDKYgLso) to assemble your gripper
-* Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
-## 📚Documentation:
+## 📚Resources:
 
 | Resource | Description |
 |----------|-------------|
-| [Official website](https://source-robotics.com) | Buy the MSG gripper or explore other Source Robotics products |
-| [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) | Getting started, wiring, configuration, and full API reference |
-| [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
-| [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
-| [Building instructions *(coming soon)*](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions) | Mechanical assembly walkthrough |
-| [URDF & MJCF files](/MSG_gripper_description/) | Ready-to-use robot description files for ROS2, Gazebo, and MuJoCo |
-| [ROS2 package — MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) | ROS2 driver and example nodes for the MSG gripper |
-| [ROS2 package — SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) | ROS2 driver and example nodes for the SSG48 gripper (Should work with MSG also) |
+| [RCB motherboard firmware](RCB%20motherboard%20firmware/) | Firmware source and PlatformIO project for the control box motherboard |
+| [BOX STEP 3D print files](STEP%20files/) | STEP files for the control box enclosure and printed parts |
+| [BOM](BOM/BOM.md) | Bill of materials and reference images for required components |
+| [Assembly manual](Assembly%20manual/readme.md) | Build and assembly instructions for the control box |
 
 
-## 💻Quick start code example
-
-```python
-import Spectral_BLDC as Spectral
-import time
-
-Communication1 = Spectral.CanCommunication(bustype='slcan', channel='COM20', bitrate=1000000)
-Motor1 = Spectral.SpectralCAN(node_id=0, communication=Communication1)
-
-Motor1.Send_Clear_Error()
-Motor1.Send_gripper_calibrate()
-time.sleep(4)
-
-temp_var = 0
-while True:
-   if temp_var == 0:
-      Motor1.Send_gripper_data_pack(50,100,700,1,1,0,0) 
-      temp_var = 1
-   elif temp_var == 1:
-      Motor1.Send_gripper_data_pack(240,100,700,1,1,0,0) 
-      temp_var = 0
-
-   message, UnpackedMessageID = Communication1.receive_can_messages(timeout=0.2) 
-
-   if message is not None:
-      print(f"Message is: {message}")
-      print(f"Node ID is : {UnpackedMessageID.node_id}")
-      print(f"Message ID is: {UnpackedMessageID.command_id}")
-      print(f"Error bit is: {UnpackedMessageID.error_bit}")
-      print(f"Timestamp is: {message.timestamp}")
-
-   time.sleep(3)
-```
-
-## 🌐 More about MSG gripper
+## 🌐 More about our projects
 
 | YouTube | Instagram | Twitter | LinkedIn |
 |--------|-----------|---------|----------|
@@ -140,4 +93,4 @@ The majority of this project is open source and freely available to everyone. Yo
 [![General badge](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/PCrnjak)
 
 ## 🛡️ Licensing
- Project is under [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper?tab=CERN-OHL-S-2.0-1-ov-file)
+ Project is under the [MIT License](LICENSE).
