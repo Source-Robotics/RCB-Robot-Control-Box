@@ -49,7 +49,7 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 |12 AWG wire|||
 |2.54 Female - Female wire|||
 |JST PH 2.0mm 200mm 4PIN|||
-|Raspberry pi 4 - 4gb|||
+|Raspberry pi 5 4gb or higher|||
 |SV 1.25-4S Spades/Fork Connector |||
 |MICRO-FIT 3.0 2Pin || [Link](https://hr.mouser.com/ProductDetail/Molex/214755-1021?qs=vmHwEFxEFR9098107Evnhw%3D%3D) [Aliexpress link](https://s.click.aliexpress.com/e/_c3MQyASH)|
 |JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor  | [Link]() |
