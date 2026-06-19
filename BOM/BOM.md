@@ -8,12 +8,13 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 
 | Diameter / Type | Length | Quantity | Description | Link |
 |-----------------|--------|----------|-------------|------|
-| M3 nut |  | 1 |  |  |
-| M4 | 10 mm | 2 | Screw |  |
-| M3 | 6 mm | 4 | Cheese head screw |  |
-| M3 | 25 mm | 4 | Screw |  |
-| M3 | 8 mm | 6 | Screw |  |
-
+| M2.5 nut |  | 4 |  |  |
+| M3 8mm |  | 12 |  |  |
+| M3 20mm |  | 2 |  |  |
+| M3 30mm |  | 1 |  |  |
+| M3 tappered head 6mm |  | 11 |  |  |
+| M2 6mm|  | 2 |  |  |
+| M2.5 18mm|  | 4 |  |  |
 
 ---
 
@@ -21,7 +22,7 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 
 | Thread | Length | Outer Diameter | Quantity | Link |
 |-------|--------|----------------|----------|------|
-| M3 | 5 mm | 4.5 mm | 8 | [Link](https://s.click.aliexpress.com/e/_c2RX6lzp) |
+| M3 | 5 mm | 4.5 mm | 13 | [Link](https://s.click.aliexpress.com/e/_c2RX6lzp) |
 
 ---
 
@@ -30,10 +31,6 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Rubber feet | 1 | 8 mm bore, M4 screw holes | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) |
-| Shaft coupler | 1 | 8 mm bore, M4 screw holes | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) |
-| MGN7C slider | 2 | Linear guide carriage | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
-| Linear guide | 1 | 100 mm, 150 mm and 200 length works | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
-| Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 
 
 ---
@@ -42,7 +39,7 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-|RCB Motheroard|||
+|RCB Motherboard|||
 |Raspberry pi - Motherboard connector PCB|||
 |UHP-200-24 *MEAN WEL power supply| 1 | NTC temperature sensor | [Link](https://hr.mouser.com/ProductDetail/709-UHP-200-24) |
 |I2C Oled display 128x64|| [Link](https://s.click.aliexpress.com/e/_c4tpguLn)|
@@ -57,6 +54,8 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 |MICRO-FIT 3.0 2Pin || [Link](https://hr.mouser.com/ProductDetail/Molex/214755-1021?qs=vmHwEFxEFR9098107Evnhw%3D%3D) [Aliexpress link](https://s.click.aliexpress.com/e/_c3MQyASH)|
 |JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor  | [Link]() |
 |4010 - Cooling fan 40x40x10, 5V|  |  | J5 motor - J6 motor  | [Link](https://s.click.aliexpress.com/e/_c3anlQut) |
+|pi5 cooling fan kit |  |  |  | [Link](https://s.click.aliexpress.com/e/_c3OpTQ3J) [alt link](https://s.click.aliexpress.com/e/_c3oBDnrF)|
+|Heatsinks||[Link](https://s.click.aliexpress.com/e/_c3VIZYtL)|
 
 
 
