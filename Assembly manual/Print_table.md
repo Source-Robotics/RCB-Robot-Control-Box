@@ -1,0 +1,1 @@
+## USE 25% Infill for all! We used PETG filament!
