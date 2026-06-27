@@ -1,8 +1,5 @@
 ## PAR6 Robot cable (Robot base to RCB (Robot Control Box) cable)
 
-| Type | Quantity | Description | Link | Reference Image |
-|------|----------|-------------|------| ------|
-||||
 
 
 Parts needed:

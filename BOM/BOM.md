@@ -3,7 +3,7 @@
 This BOM lists all components required to build RCB Robot Control Box. Quantities are for **one RCB**.
 
 > [!NOTE]
-> If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/Source-Robotics/PAR6-Collaborative-Robot-Arm/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
+> If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/Source-Robotics/RCB-Robot-Control-Box/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
 
 
 ---
@@ -53,7 +53,7 @@ female_female_jumper_wire
 | 2.54 Female - Female wire 10cm | 4 | Wires used for OLED display | [Link](https://s.click.aliexpress.com/e/_c2xKgSEl) | [Link](BOM%20reference%20images/female_female_jumper_wire.jpg) |
 | JST PH 2.0mm 200mm 4PIN | 1 | Cable used for power button | [Link](https://s.click.aliexpress.com/e/_DeObQ1D) | [Link](BOM%20reference%20images/wire.png) |
 | Raspberry pi 5 4gb or higher | 1 |  |  | [Link](BOM%20reference%20images/pi5.png) |
-| GX16 4PINconnector male | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3o4afqR) | [Link](BOM%20reference%20images/GX16.jpg) |
+| GX16 4PIN connector male | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3o4afqR) | [Link](BOM%20reference%20images/GX16.jpg) |
 | SV 1.25-4S Spades/Fork Connector | 7 | Used for Power socket and MEANWELL power supply | [Link](https://s.click.aliexpress.com/e/_c31y7RJF) | [Link](BOM%20reference%20images/Fork_spade_plug.png)  |
 | MICRO-FIT 3.0 2Pin | 1 | Cable from GX16 to motherboard  | [Link](https://hr.mouser.com/ProductDetail/Molex/214755-1021?qs=vmHwEFxEFR9098107Evnhw%3D%3D) [Aliexpress link](https://s.click.aliexpress.com/e/_c3MQyASH) | [Link](BOM%20reference%20images/Micro_fit_3_0_2pin.png) |
 | JST ZH 1.5MM 2PIN female-female 23cm | 1 | Cable from GX16 to motherboard  | [Link](https://s.click.aliexpress.com/e/_c39pDT7b) | [Link](BOM%20reference%20images/ZH_series_dual_female_head.jpg) |
@@ -79,8 +79,8 @@ Choose **one** cooling option: either use the 4010 cooling fan with heatsinks, o
 
 ## PAR6 Robot cable (Robot base to RCB (Robot Control Box) cable)
 
-* Follow the assembly manual [here](TODO)
-* Video manual [here](TODO)
+* Follow the assembly manual [here](../Assembly%20manual/Building_cables.md)
+* Video manual [here](https://youtu.be/QlNfWAga1l0)
 
 | Type | Quantity | Description | Link | Reference Image |
 |------|----------|-------------|------| ------|
