@@ -45,7 +45,7 @@ female_female_jumper_wire
 | RCB Motherboard | 1 |  | Source Robotics website only for beta for now | [Link](BOM%20reference%20images/Motherboard.png) |
 | Raspberry pi - Motherboard connector PCB | 1 | Connects pi5 to motherboard | Source Robotics website only for beta for now  | [Link](BOM%20reference%20images/P1066620.jpg) |
 | UHP-200-24 MEAN WELL power supply | 1 |  | [Link](https://hr.mouser.com/ProductDetail/709-UHP-200-24) | [Link](BOM%20reference%20images/psu.png) |
-| I2C Oled display 128x64 0.96 inch | 1 |  | [Link](https://s.click.aliexpress.com/e/_c4tpguLn) | [Link](BOM%20reference%20images/OLED.png) |
+| I2C Oled display 128x64 0.96 inch | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3Gz8Xj7) | [Link](BOM%20reference%20images/OLED.png) |
 | Power socket | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3jE9sYt) | [Link](BOM%20reference%20images/Power_plug.png) |
 | ON/OFF Button | 1 | 12mm 3-6V, NOT LATCHING  | [Link](https://s.click.aliexpress.com/e/_DBpZV3h) | [Link](BOM%20reference%20images/button.png) |
 | 3mm LED diode (green recommended) | 2 | Indicator LEDs | [Link](https://s.click.aliexpress.com/e/_c39Q5Qz7) |  [Link](BOM%20reference%20images/green_lred_3mm.webp) |
