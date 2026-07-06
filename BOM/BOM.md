@@ -37,13 +37,18 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 | Rubber feet | 4 | See reference image for exact type | [Link](https://s.click.aliexpress.com/e/_c4CmOnnX)  |[Link](BOM%20reference%20images/Rubber_feet.png) |
 
 ---
-female_female_jumper_wire
-## Electronics
+
+## PCBs
 
 | Type | Quantity | Description | Link | Reference Image |
 |------|----------|-------------|------| ------|
 | RCB Motherboard | 1 |  | Source Robotics website only for beta for now | [Link](BOM%20reference%20images/Motherboard.png) |
 | Raspberry pi - Motherboard connector PCB | 1 | Connects pi5 to motherboard | Source Robotics website only for beta for now  | [Link](BOM%20reference%20images/P1066620.jpg) |
+
+## Electronics
+
+| Type | Quantity | Description | Link | Reference Image |
+|------|----------|-------------|------| ------|
 | UHP-200-24 MEAN WELL power supply | 1 |  | [Link](https://hr.mouser.com/ProductDetail/709-UHP-200-24) | [Link](BOM%20reference%20images/psu.png) |
 | I2C Oled display 128x64 0.96 inch | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3Gz8Xj7) | [Link](BOM%20reference%20images/OLED.png) |
 | Power socket | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3jE9sYt) | [Link](BOM%20reference%20images/Power_plug.png) |
