@@ -34,7 +34,7 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 
 | Type | Quantity | Description | Link | Reference Image |
 |------|----------|-------------|------| ------|
-| Rubber feet | 4 | See reference image for exact type | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7)  |[Link](BOM%20reference%20images/Rubber_feet.png) |
+| Rubber feet | 4 | See reference image for exact type | [Link](https://s.click.aliexpress.com/e/_c4CmOnnX)  |[Link](BOM%20reference%20images/Rubber_feet.png) |
 
 ---
 female_female_jumper_wire
