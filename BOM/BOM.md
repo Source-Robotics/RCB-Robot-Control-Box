@@ -57,7 +57,8 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 | 12 AWG wire | 1meter | Wire used for Power socket and Power supply - motherboard connection | Local store | [Link](BOM%20reference%20images/instalation_wire.jpg) |
 | 2.54 Female - Female wire 10cm | 4 | Wires used for OLED display | [Link](https://s.click.aliexpress.com/e/_c2xKgSEl) | [Link](BOM%20reference%20images/female_female_jumper_wire.jpg) |
 | JST PH 2.0mm 200mm 4PIN | 1 | Cable used for power button | [Link](https://s.click.aliexpress.com/e/_DeObQ1D) | [Link](BOM%20reference%20images/wire.png) |
-| Raspberry pi 5 4gb or higher | 1 |  |  | [Link](BOM%20reference%20images/pi5.png) |
+| Raspberry pi 5 4gb or higher | 1 | UHS-I, A1 or A2, V30 (Class 10 rating, Video speed class 30) |  | [Link](BOM%20reference%20images/pi5.png) |
+| SD card 32gb or higher | 1 |  |  |  |
 | GX16 4PIN connector male | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3o4afqR) | [Link](BOM%20reference%20images/GX16.jpg) |
 | SV 1.25-4S Spades/Fork Connector | 7 | Used for Power socket and MEANWELL power supply | [Link](https://s.click.aliexpress.com/e/_c31y7RJF) | [Link](BOM%20reference%20images/Fork_spade_plug.png)  |
 | MICRO-FIT 3.0 2Pin | 1 | Cable from GX16 to motherboard  | [Link](https://hr.mouser.com/ProductDetail/Molex/214755-1021?qs=vmHwEFxEFR9098107Evnhw%3D%3D) [Aliexpress link](https://s.click.aliexpress.com/e/_c3MQyASH) | [Link](BOM%20reference%20images/Micro_fit_3_0_2pin.png) |
