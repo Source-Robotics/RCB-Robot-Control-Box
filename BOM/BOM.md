@@ -50,7 +50,7 @@ This BOM lists all components required to build RCB Robot Control Box. Quantitie
 | Type | Quantity | Description | Link | Reference Image |
 |------|----------|-------------|------| ------|
 | UHP-200-24 MEAN WELL power supply | 1 |  | [Link](https://hr.mouser.com/ProductDetail/709-UHP-200-24) | [Link](BOM%20reference%20images/psu.png) |
-| I2C Oled display 128x64 0.96 inch | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3Gz8Xj7) | [Link](BOM%20reference%20images/OLED.png) |
+| I2C Oled display 128x64 0.96 inch | 1 | The display needs to be the "original" variant from reference image. They are usually blue. Also avoid variants with yellow and blue display combo | [Link](https://s.click.aliexpress.com/e/_c34deCxt) | [Link](BOM%20reference%20images/OLED_IMG.png) |
 | Power socket | 1 |  | [Link](https://s.click.aliexpress.com/e/_c3jE9sYt) | [Link](BOM%20reference%20images/Power_plug.png) |
 | ON/OFF Button | 1 | 12mm 3-6V, NOT LATCHING  | [Link](https://s.click.aliexpress.com/e/_DBpZV3h) | [Link](BOM%20reference%20images/button.png) |
 | 3mm LED diode (green recommended) | 2 | Indicator LEDs | [Link](https://s.click.aliexpress.com/e/_c39Q5Qz7) |  [Link](BOM%20reference%20images/green_lred_3mm.webp) |
