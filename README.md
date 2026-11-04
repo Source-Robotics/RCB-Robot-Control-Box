@@ -27,7 +27,7 @@ Please open an issue, send us a message on Discord, or contact us via email with
 
 # RCB - ROBOT CONTROL BOX
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue)](LICENSE) [![Firmware: GPL-3.0](https://img.shields.io/badge/firmware-GPL--3.0-blue)](RCB%20motherboard%20firmware/LICENSE)
    ![Issues](https://img.shields.io/github/issues/PCrnjak/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/MSG-compliant-AI-stepper-gripper) 
 <p align="center">
   <a href="https://source-robotics.github.io/PAROL-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
@@ -99,4 +99,4 @@ This project includes experimental software, hardware designs, and assembly docu
 THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE SEVERE INJURY. YOU MUST READ THE FULL [SAFETY WARNING AND DISCLAIMER DOCUMENT](SAFETY_WARNING_AND_DISCLAIMER.md)  BEFORE USING ANY PROJECT FILES. BY PROCEEDING, YOU ACKNOWLEDGE AND ACCEPT ALL RISKS AND AGREE TO USE THIS PROJECT ENTIRELY AT YOUR OWN RESPONSIBILITY.
 
 ## 🛡️ Licensing
- Project is under the [MIT License](LICENSE).
+The hardware (the STEP files, the BOM and the assembly manual) is under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0). The firmware in `RCB motherboard firmware` is under [GPL-3.0](RCB%20motherboard%20firmware/LICENSE), and the libraries in its `lib` folder keep their own licences. Until 4 November 2026 the repository's main licence was MIT.
