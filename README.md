@@ -81,7 +81,7 @@ fix it quickly.
 | I want to | Go to |
 |---|---|
 | **Join the beta** | [beta sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSfJVBVM5K6rCrFRtpijmTBLeePUdGDxUlWBni1VqBrAZwRCwg/viewform) · the mainboard and the Raspberry Pi connector PCB come in the [PAR6 Beta Kit](https://source-robotics.com/products/par6-beta-kit), for approved beta testers |
-| **Build my own** | [BOM](BOM/BOM.md) · [print files](STEP%20files/) ([print table](Assembly%20manual/Print_table.md)) · [assembly video](https://youtu.be/qAzd839ixuw) |
+| **Build my own** | [BOM](BOM/) · [print files](STEP%20files/) ([print table](Assembly%20manual/Print_table.md)) · [assembly video](https://youtu.be/qAzd839ixuw) |
 | **Connect the arm and wire it** | [robot cable](Assembly%20manual/Building_cables.md) ([video](https://youtu.be/QlNfWAga1l0)) · [E-stop wiring](https://docs.source-robotics.com/par6/latest/rcb/02-safety/emergency-stop/) · [pin map of the connector panel](https://github.com/Source-Robotics/RCB-Runtime/blob/v1.1.1/docs/pin_map.md) |
 | **Set up the software** | [Setting up the software](https://docs.source-robotics.com/par6/latest/rcb/05-software-setup/), from the operating system image to the system check · [RCB-Runtime](https://github.com/Source-Robotics/RCB-Runtime) |
 | **Program the robot** | [Programming Guide](https://docs.source-robotics.com/par6/latest/programming/) · [RCB-Runtime](https://github.com/Source-Robotics/RCB-Runtime) (with the Python client and the dashboard) |
@@ -92,7 +92,7 @@ fix it quickly.
 
 | Folder | What is in it |
 |---|---|
-| [`BOM`](BOM/) | the [bill of materials](BOM/BOM.md) for one box, with shop links and reference images, and the parts of the PAR6 robot cable |
+| [`BOM`](BOM/) | the bill of materials for one box, with shop links and reference images, and the parts of the PAR6 robot cable |
 | [`STEP files`](STEP%20files/) | the enclosure and the printed parts as STEP: the bottom, the ribbed top, the lid, the socket cover, the Pi bottom, the Pi fan holder, the resistor holder |
 | [`Assembly manual`](Assembly%20manual/) | building the PAR6 robot cable, the print table (25 % infill, PETG) |
 | [`RCB motherboard firmware`](RCB%20motherboard%20firmware/) | the mainboard firmware (PlatformIO, STM32F103) |
