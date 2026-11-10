@@ -28,7 +28,7 @@
 
 | **Raspberry Pi 5** | **Real-time Linux** | **3 + 3** | **2 E-stop channels** | **CAN bus** |
 |:-:|:-:|:-:|:-:|:-:|
-| runs the robot, no external PC | Ubuntu 24.04.2, kernel 6.8.4-rt11 | isolated inputs and outputs | cross-checked on PCB v2 | to the drives in the arm and the gripper |
+| no PC needed | Ubuntu 24.04 | isolated inputs and outputs | cross-checked | to the drives |
 
 </div>
 
@@ -88,7 +88,8 @@ fix it quickly.
 | **Update the mainboard firmware** | [RCB motherboard firmware](RCB%20motherboard%20firmware/) (PlatformIO, uploaded over ST-Link) · [ST-LINK USB driver for Windows](en.stsw-link009.zip) |
 | **Use it with the arm** | [PAR6-Collaborative-Robot-Arm](https://github.com/Source-Robotics/PAR6-Collaborative-Robot-Arm) · [PAR6 manual](https://docs.source-robotics.com/par6/) |
 
-## In this repository
+<details>
+<summary><b>What is in this repository</b></summary>
 
 | Folder | What is in it |
 |---|---|
@@ -107,6 +108,8 @@ There is no release yet: while the box is in beta, the files on the main branch 
 operating system image and the drive firmware that go with them are on the manual's
 [Downloads and files](https://docs.source-robotics.com/par6/latest/par6/cad-files/) page.
 
+</details>
+
 ## Community
 
 Ask in [Discussions](https://github.com/orgs/Source-Robotics/discussions), chat on
@@ -122,15 +125,6 @@ Ask in [Discussions](https://github.com/orgs/Source-Robotics/discussions), chat 
 [![Blog](https://img.shields.io/badge/blog-source--robotics.com-143952?style=flat-square&logo=rss&logoColor=white)](https://source-robotics.com/blogs/blog)
 
 ## Safety, liability and disclaimer
-
-This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features. By using, building, or modifying this project, you acknowledge that:
-
-* You use this project entirely at your own risk
-* You are solely responsible for safe assembly, testing, and operation
-* No guarantee is made regarding correctness, safety, or reliability
-* The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project
-* Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
-* This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
 
 > [!WARNING]
 > THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE SEVERE INJURY. YOU MUST READ THE FULL [SAFETY WARNING AND DISCLAIMER DOCUMENT](SAFETY_WARNING_AND_DISCLAIMER.md)  BEFORE USING ANY PROJECT FILES. BY PROCEEDING, YOU ACKNOWLEDGE AND ACCEPT ALL RISKS AND AGREE TO USE THIS PROJECT ENTIRELY AT YOUR OWN RESPONSIBILITY.
